@@ -1,0 +1,19 @@
+[user]
+	email = ecrann@protonmail.com
+  name = Ethan Crann
+
+[color]
+  ui = true
+
+[url "https://github.com/"]
+  insteadOf = gh:
+
+[url "https://gist.github.com/"]
+  insteadOf = gist:
+
+[url "https://bitbucket.org/"]
+  insteadOf = bb:
+
+[alias]
+  undo = reset --soft HEAD^
+  glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
